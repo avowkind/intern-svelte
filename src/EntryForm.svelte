@@ -11,26 +11,15 @@
 
 </script>
 
-<div>
-	<label for='email'>Email:</label>
+<div class='form'>
+	<label for='email'>Email</label>
 	<input name='email' placeholder='your email address' bind:value={creds.email}>
-	<label for='secret'>Secret:</label>
+	<label for='secret'>Secret</label>
 	<input
 		name='secret' 
 		type='password' 
 		placeholder='your secret'  
 		bind:value={creds.secret}
 	>
-	<button on:click={submit}>submit</button>
+	<p>&nbsp;</p><button on:click={submit}>Submit</button>
 </div>
-
-<style>
-	div {
-		display: flex;
-		flex-direction: column;
-		max-width: 400px;
-	}
-	input {
-		margin-bottom: 10px;
-	}
-</style>

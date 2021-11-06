@@ -9,8 +9,8 @@
 
 <style>
 	header {
-		text-align: center;
-		padding: 1em;
+		/* text-align: center; */
+		/* padding: 1em; */
 		/* max-width: 00px; */
 		margin: 0 auto;
 	}

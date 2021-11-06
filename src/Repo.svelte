@@ -26,7 +26,7 @@ var today  = new Date();
   div {
     /* border: 1px solid black; */
     border-radius: 5px;
-    box-shadow: 0 0 10px #000; 
+    box-shadow: 0 0 4px rgb(114, 134, 124); 
     padding: 10px;
     margin: 10px;
   }
